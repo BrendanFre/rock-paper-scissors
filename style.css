@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+header{
+    background-color: darkcyan;
+    width: 100vw;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameScreen{
+    width: 400px;
+    height: 400px;
+    border: 2px solid lightblue;
+    list-style: none;
+}
+
+#playerButtons{
+    width: 400px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.flatButton{
+    background-color: aliceblue;
+    border: 1px solid lightgreen;
+    font-size: 22px;
+    width: 32%;
+}
+
+.playerTurn{
+    list-style: none;
+    background-color: lightskyblue;
+    margin: 1px 0;
+    text-align: center;
+}
+.computerTurn{
+    list-style: none;
+    background-color: lightcoral;
+    margin: 1px 0;
+    text-align: center;
+}
